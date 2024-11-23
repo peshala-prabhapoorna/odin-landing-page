@@ -11,6 +11,7 @@ body {
     font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
 }
 
+.hero,
 header {
     background-color: #1f2937;
 }
@@ -35,6 +36,7 @@ header {
     gap: 24px;
 }
 
+.hero-content-sub-text,
 .nav-ul li {
     color: #e5e7eb;
     font-size: 18px;
@@ -43,4 +45,44 @@ header {
 .nav-link {
     text-decoration: none;
     color: inherit;
+}
+
+.hero {
+    display: flex;
+    padding: 72px 12vw;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hero-content-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero-content-sub-text {
+    margin: 18px 0;
+}
+
+.hero-content-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 32px;
+    border: none;
+    border-radius: 8px;
+}
+
+.hero-img {
+    min-width: 500px;
+    max-height: 250px;
+    object-fit: cover;
 }
