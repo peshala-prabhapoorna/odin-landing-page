@@ -131,3 +131,28 @@ header {
     color: #36454F;
     text-align: center;
 }
+
+.testimonial {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 96px 20vw;
+    gap: 16px;
+}
+
+.testimonial-quote {
+    align-self: center;
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    color: #36454F;
+}
+
+.testimonial-client {
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
+}
