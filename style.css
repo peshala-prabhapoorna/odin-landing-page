@@ -193,3 +193,13 @@ header {
     border-color: #f9faf8;
     border-style: solid;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #1f2937;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    color: #f9faf8;
+}
