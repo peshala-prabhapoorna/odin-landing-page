@@ -71,14 +71,18 @@ header {
     margin: 18px 0;
 }
 
+.cta-button,
 .hero-content-button {
     background-color: #3882f6;
     color: #f9faf8;
     font-size: 18px;
     font-weight: bold;
     padding: 8px 32px;
-    border: none;
     border-radius: 8px;
+}
+
+.hero-content-button {
+    border: none;
 }
 
 .hero-img {
@@ -155,4 +159,37 @@ header {
     font-size: 24px;
     font-weight: bold;
     align-self: flex-end;
+}
+
+.cta {
+    padding: 96px 12vw;
+}
+
+.cta-container {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 96px;
+    border-radius: 8px;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    color: #f9faf8;
+    gap: 8px;
+}
+
+.cta-main-text {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.cta-sub-text {
+    font-size: 16px;
+}
+
+.cta-button {
+    border-color: #f9faf8;
+    border-style: solid;
 }
