@@ -86,3 +86,48 @@ header {
     max-height: 250px;
     object-fit: cover;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 12vw 96px 12vw;
+    align-items: center;
+    gap: 48px;
+}
+
+.info-header-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    flex: 0 1 200px;
+}
+
+.card-img {
+    max-width: 200px;
+    border-radius: 8px;
+    /* image background #c2e4f0 */
+}
+
+.card-title {
+    color: #1f2937;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-text {
+    color: #36454F;
+    text-align: center;
+}
